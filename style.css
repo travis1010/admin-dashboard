@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #0E0E0E;
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+#page-container {
+  background-color: #E2E8F0;
+  height: 100vh;
+  width: 1320px;
+  display: grid;
+  grid-template-columns: 275px 1045px;
+  grid-template-rows: 160px calc(100vh - 160px);
+}
+
+#left-bar {
+  background-color: #1992D4;
+  grid-row: 1/3;
+  color: white;
+}
+
+#left-bar-header {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 10px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+}
+
+#left-bar ul {
+  list-style: none;
+  font-size: 19px;
+  font-weight: 500;
+  margin-left: 30px;
+  margin-bottom: 60px;
+}
+#left-bar li {
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+#left-bar li:hover {
+  color: rgb(189, 189, 189);
+}
+
+#left-bar-header svg {
+  fill: white;
+  margin-right: 16px;
+  height: 48px;
+  width: 48px;
+  vertical-align: middle;
+}
+
+li svg {
+  fill: white;
+  margin-right: 20px;
+  height: 21px;
+  width: 21px;
+  vertical-align: text-top;
+}
+
+#header {
+  background-color: white;
+  box-shadow: 0px 4px 8px -4px gray;
+  padding: 18px 44px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#header-top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#search-bar {
+  background-color: #E2E8F0;
+  border: none;
+  height: 24px;
+  width: 500px;
+  border-radius: 12px;
+}
+
+#search-div {
+  display: flex;
+  align-items: center;
+}
+
+#top-right {
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+#top-right img {
+  height: 34px;
+  width: 34px;
+  border-radius: 50%;
+  margin-right: 18px;
+  margin-left: 6px;
+}
+
+#header svg {
+  margin-right: 12px;
+}
+
+#header-bottom-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+#header-bottom-row img {
+  height: 58px;
+  width: 58px;
+  border-radius: 50%;
+}
+
